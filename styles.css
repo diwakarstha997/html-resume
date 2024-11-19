@@ -2,6 +2,7 @@ table {
   border: 2px solid black;
 }
 
-th {
-  text-align: start;
+td {
+  /* border: 2px solid black; */
+  vertical-align: baseline;
 }
