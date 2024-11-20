@@ -1,8 +1,48 @@
-table {
-  border: 2px solid black;
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11pt;
 }
 
-td {
-  /* border: 2px solid black; */
+table {
+  border: 2px solid black;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 50px;
+}
+
+.data-container {
   vertical-align: baseline;
+  width: 600px;
+  padding: 0px 50px 0px 50px;
+}
+
+.main-heading {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  padding: 0px 50px 0px 50px;
+}
+
+.sub-heading-1 {
+  font-weight: bold;
+}
+
+.sub-heading-2 {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.sub-title {
+  display: inline;
+}
+
+.date {
+  display: block;
+  text-align: end;
+  font-size: 9pt;
 }
